@@ -1,82 +1,90 @@
+/*!*body {*!*/
+/*!*    background: rgb(2,0,36);*!*/
+/*!*    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);*!*/
+/*!*}*!*/
+
+/*.dropdown-menu {*/
+/*    left: -80%;*/
+/*}*/
+/*.loader {*/
+/*    border: 16px solid #f3f3f3; !* Light grey *!*/
+/*    border-top: 16px solid #3498db; !* Blue *!*/
+/*    border-radius: 50%;*/
+/*    width: 120px;*/
+/*    height: 120px;*/
+/*    animation: spin 2s linear infinite;*/
+/*}*/
+
+/*@keyframes spin {*/
+/*    0% { transform: rotate(0deg); }*/
+/*    100% { transform: rotate(360deg); }*/
+/*}*/
+
+/*#posterImage {*/
+/*    width: 100%;*/
+/*    height: 90%;*/
+/*}*/
+/*span {*/
+/*    font-weight: bolder;*/
+/*}*/
+
+/*#logo {*/
+/*    width: 150px;*/
+
+/*}*/
+/*.search {*/
+/*    width: 33%;*/
+
+/*}*/
+/*!*********   flipping cards   **********!*/
+
+/*.card {*/
+/*    height: 35rem;*/
+/*    background-color: rgba(0,0,0,0);*/
+/*    border:none;*/
+/*}*/
+
+/*.card__side {*/
+/*    -webkit-transition: all 1s ease;*/
+/*    transition: all 1s ease;*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    -webkit-backface-visibility: hidden;*/
+/*    backface-visibility: hidden;*/
+/*    border-radius: 3px;*/
+/*    overflow: hidden;*/
+/*    -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);*/
+/*    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);*/
+/*}*/
+
+/*.card__side--back {*/
+/*    background-color: white;*/
+/*    color: black;*/
+/*    -webkit-transform: rotateY(180deg);*/
+/*    transform: rotateY(180deg);*/
+/*    backface-visibility: hidden;*/
+/*}*/
+/*.card:hover .card__side--back {*/
+/*    -webkit-transform: rotateY(0);*/
+/*    transform: rotateY(0);*/
+/*}*/
+/*.card:hover .card__side--front {*/
+/*    -webkit-transform: rotateY(-180deg);*/
+/*    transform: rotateY(-180deg);*/
+/*}*/
+/*.card-body{*/
+/*    background-color: white;*/
+/*    color: black;*/
+/*}*/
+
 body {
-    background: rgb(2,0,36);
-    background: radial-gradient(circle, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    background-image: url("https://images.pexels.com/photos/2508565/pexels-photo-2508565.jpeg");
+    background-size: 120%;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
-.dropdown-menu {
-    left: -80%;
+.margins{
+    margin: 15em;
 }
-.loader {
-    border: 16px solid #f3f3f3; /* Light grey */
-    border-top: 16px solid #3498db; /* Blue */
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
-    animation: spin 2s linear infinite;
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
-#posterImage {
-    width: 100%;
-    height: 90%;
-}
-span {
-    font-weight: bolder;
-}
-
-#logo {
-    width: 150px;
-
-}
-.search {
-    width: 33%;
-
-}
-/*********   flipping cards   **********/
-
-.card {
-    height: 35rem;
-    background-color: rgba(0,0,0,0);
-    border:none;
-}
-
-.card__side {
-    -webkit-transition: all 1s ease;
-    transition: all 1s ease;
-    position: absolute;
-    top: 0;
-    left: 0;
-    -webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-    border-radius: 3px;
-    overflow: hidden;
-    -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
-}
-
-.card__side--back {
-    background-color: white;
-    color: black;
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
-    backface-visibility: hidden;
-}
-.card:hover .card__side--back {
-    -webkit-transform: rotateY(0);
-    transform: rotateY(0);
-}
-.card:hover .card__side--front {
-    -webkit-transform: rotateY(-180deg);
-    transform: rotateY(-180deg);
-}
-.card-body{
-    background-color: white;
-    color: black;
-}
-
-
-
