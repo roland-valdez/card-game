@@ -86,5 +86,15 @@ body {
 }
 
 .margins{
-    margin: 15em;
+    margin: 15em 15em 1em 15em;
+}
+div.member {
+    width: 73%;
+    padding: 2em;
+    text-align: center;
+}
+div.members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
